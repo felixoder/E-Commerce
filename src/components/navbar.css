@@ -1,0 +1,34 @@
+/* navbar.css */
+@keyframes slideIn {
+    0% {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  nav{
+    width: 100%;
+  }
+  
+  .navbar {
+    animation: slideIn 0.5s ease-in 5s; /* Animation name, duration, timing function, delay */
+    width: 100%;
+  }
+  .navbar {
+    animation: slideIn 0.5s ease-out 1s; /* Add a 1-second delay before the animation starts */
+  }
+ .hamburger{
+    cursor: pointer;
+ }
+#mode{
+ cursor: pointer;
+}
+@media only screen and (max-width: 300px) {
+  .navbar {
+   
+    width: 100%;
+  }
+}
